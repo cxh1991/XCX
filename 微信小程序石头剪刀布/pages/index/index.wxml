@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+   <text class="success_text">你已经获胜了<text class="num">{{num}}</text>次</text>
+   <view class="game_box">
+     <view class="flex1">
+     <image src="{{aiimg}}" class="img imgfl"></image>
+     </view>
+      <view class="flex1">
+     <text class="info_text">{{str}}</text>
+     </view>
+      <view class="flex1">
+     <image src="{{woimg}}" class="img imgfr"></image>
+     </view>
+   </view>
+   <view class="flexbox">
+    <view wx:for="{{imgarr}}" wx:key="item" wx:for-index="index"  bindtap="stop" id="{{index}}">
+     <image src="{{item}}" class="img imgfl"></image>
+     </view>
+   </view>
+   <button type="primary" bindtap="primary" bindtap="again"> 重来 </button>
+</view>

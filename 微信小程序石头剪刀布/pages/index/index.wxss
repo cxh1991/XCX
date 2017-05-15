@@ -1,0 +1,35 @@
+.success_text{
+  text-align: center;
+  display: block;
+}
+.num{
+  color: red;
+}
+.img{
+  width:100px;
+  height: 100px;
+  }
+.imgfl{
+  float: left
+}
+.imgfr{
+  float: right;
+}
+.game_box{
+  display: flex;
+  padding: 30rpx;
+}
+.flex1{
+  flex: 1;
+}
+.info_text{
+  text-align: center;
+  display: block;
+  line-height: 195rpx;
+}
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40rpx;
+}
+
